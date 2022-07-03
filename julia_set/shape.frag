@@ -1,10 +1,11 @@
- // This shader folds uv space to draw the Koch curve
-
-// Mandelbrot/Julia set code from Mandelbrot/Julia set Coding Challenges and 
-// Mandelbrot Set Explained! by Martijn Steinrucken
+// Mandelbrot/Julia coding challenge by Daniel Shiffman
 
 // Koch curve code from KIFS Explained! tutorial
 // by Martijn Steinrucken aka The Art of Code/BigWings - 2020
+// 
+
+// This shader folds uv space to draw the Koch curve
+// 
 
 #ifdef GL_ES
 precision mediump float;
@@ -137,6 +138,42 @@ vec2 chooseTile( float t ) {
     return mouse;
 }
 
+float sdOctogon( vec2 p, float r )
+{
+    const vec3 k = vec3(-0.9238795325, 0.3826834323, 0.4142135623 );
+    p = abs(p);
+    p -= 2.0*min(dot(vec2( k.x,k.y),p),0.0)*vec2( k.x,k.y);
+    p -= 2.0*min(dot(vec2(-k.x,k.y),p),0.0)*vec2(-k.x,k.y);
+    p -= vec2(clamp(p.x, -k.z*r, k.z*r), r);
+    return length(p)*sign(p.y);
+}
+
+float sdHexagram( vec2 p, float r )
+{
+    const vec4 k = vec4(-0.5,0.8660254038,0.5773502692,1.7320508076);
+    p = abs(p);
+    p -= 2.0*min(dot(k.xy,p),0.0)*k.xy;
+    p -= 2.0*min(dot(k.yx,p),0.0)*k.yx;
+    p -= vec2(clamp(p.x,r*k.z,r*k.w),r);
+    return length(p)*sign(p.y);
+}
+
+
+float sdStar(vec2 p, float r, int n, float m)
+{
+    // next 4 lines can be precomputed for a given shape
+    float an = 3.141593/float(n);
+    float en = 3.141593/m;  // m is between 2 and n
+    vec2  acs = vec2(cos(an),sin(an));
+    vec2  ecs = vec2(cos(en),sin(en)); // ecs=vec2(0,1) for regular polygon
+
+    float bn = mod(atan(p.x,p.y),2.0*an) - an;
+    p = length(p)*vec2(cos(bn),abs(sin(bn)));
+    p -= r*acs;
+    p += ecs*clamp( -dot(p,ecs), 0.0, r*acs.y/ecs.y);
+    return length(p)*sign(p.x);
+}
+
 float Mandelbrot( vec2 uv, float k, float t, float choice ) {
     
     vec2 m = chooseTile( t );
@@ -168,7 +205,16 @@ void main( )
     // Normalized pixel coordinates (from 0 to 1)
     vec2 uv = (gl_FragCoord.xy-0.5*u_resolution.xy)/u_resolution.y;
     float t =  iTime;
+   // vec2 mouse = iMouse.xy/u_resolution.xy;;
 
+    // // Code to animate based on iMouse
+    // float k = 10.0;
+    // float zoom = pow(k, -mouse.x*k);
+    //  uv = uv*zoom;
+
+    // Adjust mouse coordinates for each tile
+    //vec2 mouse = chooseTile( tile );
+    
     uv *= 1.75;
     vec3 col = vec3(0.0);
 
@@ -197,15 +243,20 @@ void main( )
     uv -= n*min(0.0, dot(uv - vec2(0.0, 0.0), n))*2.; // uv.x*n.x + uv.y*n.y
     }
 
+    // float d = sdOctogon( uv, 0.2 );
+    // //float d = sdHexagram( uv, 0.2 );
+    // float mm = S(0.008, 0.0, d);
+    // //col = (1.0 - mm)*DKBLUE + mm*GREEN;
+
     // for Koch curve Mandelbrot kaleidescope
     //Choice value of c
     float c = choice;
-    float d = Mandelbrot( uv, 5.0, tile, c );
+    float d = Mandelbrot( uv, 10.0, tile, c );
     float s =  S(2./u_resolution.y, 0.0, d/scale);
   
    // Coloring based on iterations
    //Approach to coloring Julia set from https://github.com/vharivinay/julia-set-with-shaders/
-  col = vec3(0.5-cos(d * 20.0)/2.0,0.5-cos(d * 30.0)/2.0,0.5-cos(d * 40.0)/2.0);
-  
+ col = vec3(0.5-cos(d * 20.0)/2.0,0.5-cos(d * 30.0)/2.0,0.5-cos(d * 40.0)/2.0);
+   //col = vec3(0.5-cos(d * 40.0)/2.0,0.5-cos(d * 60.0)/2.0,0.5-cos(d * 80.0)/2.0);
   gl_FragColor = vec4(col, 1.0);
 }
