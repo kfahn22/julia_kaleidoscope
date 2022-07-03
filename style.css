@@ -1,0 +1,48 @@
+html,
+body {
+  margin: 2%;
+  padding: 0;
+  background-color: #414142;
+}
+
+header {
+  padding: 1vh;
+
+  height: 10vh;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 1vw;
+  font-size: x-large;
+  color: #fff;
+}
+
+label::after {
+  content: '\a';
+  white-space: pre;
+}
+
+div {
+  color: '#090808';
+  font-size: x-large;
+}
+
+h1 {
+  padding-top: 1%;
+  font-size: xx-large;
+  text-align: center;
+  color: #fff;
+}
+
+iframe {
+  margin-top: 2vh;
+  width: 90vw;
+  margin-left: 1vw;
+  margin-right: 5vw;
+}
