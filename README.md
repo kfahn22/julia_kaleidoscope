@@ -6,19 +6,19 @@ Julia set kaleiscope with c = (-0.6999, 0.37999)
 
 <img class="img" src="assets/julia1.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
-    margin-right: auto;" width="800" height="400">
+    margin-right: auto;" width="400" height="400">
 
 Julia set kaleiscope with c = (-0.70176, 0.3842)  
 
 <img class="img" src="assets/julia2.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
-    margin-right: auto;" width="800" height="400">
+    margin-right: auto;" width="400" height="400">
 
 Julia set kaleiscope with c = (0.285, 0.01)  
 
 <img class="img" src="assets/julia3.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
-    margin-right: auto;" width="800" height="400">
+    margin-right: auto;" width="400" height="400">
 
 [P5 sketch](https://editor.p5js.org/kfahn/sketches/ujLsCeNRb)
 [Code]()
