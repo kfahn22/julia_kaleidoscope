@@ -1,6 +1,15 @@
 # Julia Set Kaleidescope
 
-## This repository contains p5.js sketches that render the julia set within the Koch curve using different values of c.
+## This repository contains a p5.js sketch that render the julia set within the Koch curve using different values of c.
+
+My first introduction to the Julia set is <a href="https://thecodingtrain.com/challenges/22-julia-set">Daniel Shiffman</a>'s Julia Set coding challenge.  
+
+<img class="img" src="assets/ct_julia_set.jpg" alt="Julia set kaleidescope" style=" display: block;
+    margin-left: auto;
+    margin-right: auto;" width="800" height="400">
+
+My sketch renders the Julia set within a kaleiscope using a shader.  The code is based on the 
+[Shader Coding: KIFS Fractals explained!](https://www.youtube.com/watch?v=il_Qg9AqQkE) youtube tutorial by the Art of Code.
 
 Julia set kaleiscope with c = (-0.6999, 0.37999)    
 
