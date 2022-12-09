@@ -13,6 +13,8 @@ Image rendered by Daniel's [P5 sketch](https://editor.p5js.org/codingtrain/sketc
 My sketch renders the Julia set within a kaleiscope using a shader.  The code is based on the 
 [Shader Coding: KIFS Fractals explained!](https://www.youtube.com/watch?v=il_Qg9AqQkE) youtube tutorial by the Art of Code.
 
+[Live version](https://kfahn22.github.io/julia_kaleidescope/)
+
 Julia set kaleidescope with c = (-0.6999, 0.37999)    
 
 <img class="img" src="assets/julia1.jpg" alt="Julia set kaleidescope" style=" display: block;
