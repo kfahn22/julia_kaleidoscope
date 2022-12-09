@@ -19,7 +19,7 @@ new p5(sa => {
 
   sa.preload = () => {
       // load the the shader
-      shader0 = sa.loadShader('julia_set/julia.vert', 'julia_set/julia.frag');
+      shader0 = sa.loadShader('julia.vert', 'julia.frag');
   }
 
   sa.setup = () => {
