@@ -14,6 +14,11 @@ My sketch renders the Julia set within a kaleiscope using a shader.  The code is
 [Shader Coding: KIFS Fractals explained!](https://www.youtube.com/watch?v=il_Qg9AqQkE) youtube tutorial by the Art of Code.
 
 ![](julia.gif)
+[P5 sketch](https://editor.p5js.org/kfahn/sketches/Zlzw2yIOL)
+
+
+## Renderings with different values of c
+
 [Live version](https://kfahn22.github.io/julia_kaleidescope/)
 
 Julia set kaleidescope with c = (-0.6999, 0.37999)    
