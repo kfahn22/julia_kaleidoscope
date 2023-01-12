@@ -15,6 +15,7 @@ My sketch renders the Julia set within a kaleiscope using a shader.  The code is
 
 ![](julia.gif)
 [P5 sketch](https://editor.p5js.org/kfahn/sketches/Zlzw2yIOL)
+[Code](https://github.com/kfahn22/julia_kaleidescope/tree/main/animation)
 
 
 ## Renderings with different values of c
