@@ -123,11 +123,11 @@ vec2 chooseJulia( float choice ) {
 
 float Mandelbrot( vec2 uv, float k, vec2 m, float choice ) {
      
-  //float zoom = pow(k, -m.x*k);
-  float zoom = pow(k, -mm*k);
+   //float zoom = pow(k, -m.x*k);
+    float zoom = pow(k, -mm*k);
   
-   // vec2 c = uv*zoom;
-   vec2 c = uv*sin(zoom);
+    // vec2 c = uv*zoom;
+    vec2 c = uv*sin(zoom);
     c += chooseJulia( choice );
 
     float a = 0.0;
@@ -156,7 +156,7 @@ void main( )
     //float t = iTime;
  
   
-   uv *= 2.0;
+    uv *= 2.0;
    
     vec3 col = vec3(0.0);
 
@@ -194,7 +194,7 @@ void main( )
    
   
    //Approach to coloring Julia set from https://github.com/vharivinay/julia-set-with-shaders/
- vec3 col1 = vec3(0.5-cos(d * 20.0)/2.0,0.5-cos(d * 30.0)/2.0,0.5-cos(d * 40.0)/2.0);
+   vec3 col1 = vec3(0.5-cos(d * 20.0)/2.0,0.5-cos(d * 30.0)/2.0,0.5-cos(d * 40.0)/2.0);
 
   gl_FragColor = vec4(col1, 1.0);
 }

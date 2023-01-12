@@ -13,6 +13,11 @@ Image rendered by Daniel's [P5 sketch](https://editor.p5js.org/codingtrain/sketc
 My sketch renders the Julia set within a kaleiscope using a shader.  The code is based on the 
 [Shader Coding: KIFS Fractals explained!](https://www.youtube.com/watch?v=il_Qg9AqQkE) youtube tutorial by the Art of Code.
 
+
+## Animation
+
+I am using the new p5 saveGif() function to render the GIF. 
+
 ![](julia.gif)
 [P5 sketch](https://editor.p5js.org/kfahn/sketches/Zlzw2yIOL)
 [Code](https://github.com/kfahn22/julia_kaleidescope/tree/main/animation)
