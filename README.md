@@ -18,7 +18,7 @@ My sketch renders the Julia set within a kaleiscope using a shader.  The code is
 
 I am using the new p5 saveGif() function to render the GIF. 
 
-![](julia.gif)  
+![](juliagif.gif)  
 
 - [P5 sketch](https://editor.p5js.org/kfahn/sketches/Zlzw2yIOL)  
 - [Code](https://github.com/kfahn22/julia_kaleidescope/tree/main/animation)
