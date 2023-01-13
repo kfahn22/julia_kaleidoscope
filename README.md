@@ -32,19 +32,19 @@ Julia set kaleidescope with c = (-0.6999, 0.37999)
 
 <img class="img" src="assets/julia1.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
-    margin-right: auto;" width="800" height="800">
+    margin-right: auto;" width="600" height="600">
 
 Julia set kaleidescope with c = (-0.70176, 0.3842)    
 
 <img class="img" src="assets/julia2.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
-    margin-right: auto;" width="800" height="800">
+    margin-right: auto;" width="600" height="600">
 
 Julia set kaleidescope with c = (0.285, 0.01)    
 
 <img class="img" src="assets/julia3.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
-    margin-right: auto;" width="800" height="800">
+    margin-right: auto;" width="600" height="600">
 
 [P5 sketch](https://editor.p5js.org/kfahn/sketches/ujLsCeNRb)  
 [Code](https://github.com/kfahn22/julia_kaleidescope/tree/main/julia_set)
