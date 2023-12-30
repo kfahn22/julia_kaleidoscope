@@ -4,7 +4,7 @@
 
 My first introduction to the Julia set was Daniel Shiffman's Julia Set [Coding Challenge](https://thecodingtrain.com/challenges/22-julia-set). This is an image rendered by Daniel Shiffman's [P5 sketch](https://editor.p5js.org/codingtrain/sketches/G6qbMmaI):
 
-<img class="img" src="assets/ct_julia_set.jpg" alt="Julia set kaleidescope" style=" display: block;
+<img class="img" src="assets/ct_julia_set.jpg" alt="Julia set kaleidoscope" style=" display: block;
     margin-left: auto;
     margin-right: auto;" width="500" height="">
 
@@ -12,7 +12,7 @@ My first introduction to the Julia set was Daniel Shiffman's Julia Set [Coding C
 
 The first row shows the Julia set within the Koch curve rendered with a shader in P5.js for different values of c. The code is based on the [Shader Coding: KIFS Fractals explained!](https://www.youtube.com/watch?v=il_Qg9AqQkE) youtube tutorial by the Art of Code.
 
-The next rows show images generated using the stabilityai/sdxl-turbo image2image model. I created a dataset of Julia Set kaleidescope images using this [P5.js sketch](https://editor.p5js.org/kfahn/sketches/vugGJY9Gm) and pushed them to the [Hugging Face hub](https://huggingface.co/datasets/kfahn/kaleidescope) using this [notebook](push_kaleidescope_data_to_HF_hub.ipynb). You can try out the code with this [notebook](mandelbulb_kaleidescope.ipynb).
+The next rows show images generated using the stabilityai/sdxl-turbo image2image model. I created a dataset of Julia Set kaleidoscope images using this [P5.js sketch](https://editor.p5js.org/kfahn/sketches/vugGJY9Gm) and pushed them to the [Hugging Face hub](https://huggingface.co/datasets/kfahn/kaleidoscope) using this [notebook](push_kaleidoscope_data_to_HF_hub.ipynb). You can try out the code with this [notebook](mandelbulb_kaleidoscope.ipynb).
 
 <!-- IMAGE-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -20,18 +20,18 @@ The next rows show images generated using the stabilityai/sdxl-turbo image2image
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="jhttps://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia1.jpg" alt="Julia Kaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (-0.6999, 0.37999)<br/>Julia Kaleidescope</b></sub></a></td>
-      <td align="center"><a href="https://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia2.jpg" alt="Julia Kaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (-0.70176, 0.3842)<br/>Julia Kaleidescope</b></sub></a></td>
-      <td align="center"><a href="https://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia3.jpg" alt="Julia Kaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (0.285, 0.01)<br/>Julia Kaleidescope</b></sub></a></td>
+      <td align="center"><a href="jhttps://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia1.jpg" alt="Julia Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (-0.6999, 0.37999)<br/>Julia Kaleidoscope</b></sub></a></td>
+      <td align="center"><a href="https://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia2.jpg" alt="Julia Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (-0.70176, 0.3842)<br/>Julia Kaleidoscope</b></sub></a></td>
+      <td align="center"><a href="https://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia3.jpg" alt="Julia Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (0.285, 0.01)<br/>Julia Kaleidoscope</b></sub></a></td>
     </tr>
      <tr>
-      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidescope1.png" alt="Mandelbulb Kaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidescope</b></sub></a></td>
-      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidescope2.png" alt="JMandelbulbKaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidescope</b></sub></a></td>
-      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidescope3.png" alt="Mandelbulb Kaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidescope</b></sub></a></td>
+      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope1.png" alt="Mandelbulb Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
+      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope2.png" alt="JMandelbulbKaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidescope</b></sub></a></td>
+      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope3.png" alt="Mandelbulb Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
     </tr>
      <tr>
-      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidescope4.png" alt="Mandelbulb Kaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidescope</b></sub></a></td>
-      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidescope5.png" alt="JMandelbulbKaleidescope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidescope</b></sub></a></td>
+      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope4.png" alt="Mandelbulb Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
+      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope5.png" alt="JMandelbulbKaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
       
     </tr>
      </tbody>
