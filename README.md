@@ -24,15 +24,14 @@ The next rows show images generated using the stabilityai/sdxl-turbo image2image
       <td align="center"><a href="https://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia2.jpg" alt="Julia Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (-0.70176, 0.3842)<br/>Julia Kaleidoscope</b></sub></a></td>
       <td align="center"><a href="https://editor.p5js.org/kfahn/sketches/ujLsCeNRb"> <img class="img" src="assets/julia3.jpg" alt="Julia Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b>c = (0.285, 0.01)<br/>Julia Kaleidoscope</b></sub></a></td>
     </tr>
-     <tr>
+    <tr>
       <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope1.png" alt="Mandelbulb Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
       <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope2.png" alt="JMandelbulbKaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidescope</b></sub></a></td>
       <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope3.png" alt="Mandelbulb Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
     </tr>
-     <tr>
+    <tr>
       <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope4.png" alt="Mandelbulb Kaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
-      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope5.png" alt="JMandelbulbKaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>
-      
+      <td align="center"><a href=""> <img class="img" src="assets/mandelbulb_kaleidoscope5.png" alt="JMandelbulbKaleidoscope" style="vertical-align:top;" width="500" /><br /><sub><b><br/>Mandelbulb Kaleidoscope</b></sub></a></td>  
     </tr>
      </tbody>
 </table>
