@@ -1,6 +1,6 @@
 # Julia Set Kaleidoscope
 
-## This repository contains a p5.js sketch that render the Julia set within the Koch curve using different values of c.
+## This repository contains visualizations of the Julia Set.
 
 My first introduction to the Julia set was <a href="https://thecodingtrain.com/challenges/22-julia-set">Daniel Shiffman's</a> Julia Set coding challenge.
 
@@ -8,7 +8,9 @@ Image rendered by Daniel Shiffman's [P5 sketch](https://editor.p5js.org/codingtr
 
 <img class="img" src="assets/ct_julia_set.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
-    margin-right: auto;" width="800" height="400">
+    margin-right: auto;" width="500" height="">
+
+### The first row shows the Julia set rendered within the Koch curve for different values of c. The second row shows images generated using the stabilityai/sdxl-turbo image2image model. I created a dataset of Julia Set kaleidescipe image using this [P5.js sketch](https://editor.p5js.org/kfahn/sketches/vugGJY9Gm) and pushed them to the [Hugging Face hub](https://huggingface.co/datasets/kfahn/kaleidescope). Use can try out the code with this [notebook](mandelbulb_kaleidescope.ipynb).
 
 <!-- IMAGE-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -38,34 +40,11 @@ My sketch renders the Julia set within a kaleidoscope using a shader. The code i
 
 ## Animation
 
-I am using the new p5 saveGif() function to render the GIF.
+I am using the new p5 saveGif() function to render the GIF. The animation is created by zooming in on the Julia set for one value of c.
 
 ![](juliagif.gif)
 
 - [P5 sketch](https://editor.p5js.org/kfahn/sketches/Zlzw2yIOL)
 - [Code](https://github.com/kfahn22/julia_kaleidescope/tree/main/animation)
 
-## Renderings with different values of c
-
-[Live version](https://kfahn22.github.io/julia_kaleidescope/)
-
-Julia set kaleidoscope with c = (-0.6999, 0.37999)
-
-<img class="img" src="assets/julia1.jpg" alt="Julia set kaleidoscope" style=" display: block;
-    margin-left: auto;
-    margin-right: auto;" width="600" height="600">
-
-Julia set kaleidoscope with c = (-0.70176, 0.3842)
-
-<img class="img" src="assets/julia2.jpg" alt="Julia set kaleidoscope" style=" display: block;
-    margin-left: auto;
-    margin-right: auto;" width="600" height="600">
-
-Julia set kaleidoscope with c = (0.285, 0.01)
-
-<img class="img" src="assets/julia3.jpg" alt="Julia set kaleidoscope" style=" display: block;
-    margin-left: auto;
-    margin-right: auto;" width="600" height="600">
-
-[P5 sketch](https://editor.p5js.org/kfahn/sketches/ujLsCeNRb)  
-[Code](https://github.com/kfahn22/julia_kaleidescope/tree/main/julia_set)
+* [Live version](https://kfahn22.github.io/julia_kaleidescope/)
