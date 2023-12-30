@@ -49,5 +49,3 @@ I am using the new p5 saveGif() function to render the GIF. The animation is cre
 
 - [P5 sketch](https://editor.p5js.org/kfahn/sketches/Zlzw2yIOL)
 - [Code](https://github.com/kfahn22/julia_kaleidescope/tree/main/animation)
-
-* [Live version](https://kfahn22.github.io/julia_kaleidescope/)
