@@ -2,9 +2,7 @@
 
 ## This repository contains visualizations of the Julia Set.
 
-My first introduction to the Julia set was <a href="https://thecodingtrain.com/challenges/22-julia-set">Daniel Shiffman's</a> Julia Set coding challenge.
-
-Image rendered by Daniel Shiffman's [P5 sketch](https://editor.p5js.org/codingtrain/sketches/G6qbMmaI).
+My first introduction to the Julia set was Daniel Shiffman's Julia Set [Coding Challenge](https://thecodingtrain.com/challenges/22-julia-set). This is an image rendered by Daniel Shiffman's [P5 sketch](https://editor.p5js.org/codingtrain/sketches/G6qbMmaI):
 
 <img class="img" src="assets/ct_julia_set.jpg" alt="Julia set kaleidescope" style=" display: block;
     margin-left: auto;
@@ -14,7 +12,7 @@ Image rendered by Daniel Shiffman's [P5 sketch](https://editor.p5js.org/codingtr
 
 The first row shows the Julia set within the Koch curve rendered with a shader in P5.js for different values of c. The code is based on the [Shader Coding: KIFS Fractals explained!](https://www.youtube.com/watch?v=il_Qg9AqQkE) youtube tutorial by the Art of Code.
 
-The next rows show images generated using the stabilityai/sdxl-turbo image2image model. I created a dataset of Julia Set kaleidescope images using this [P5.js sketch](https://editor.p5js.org/kfahn/sketches/vugGJY9Gm) and pushed them to the [Hugging Face hub](https://huggingface.co/datasets/kfahn/kaleidescope). You can try out the code with this [notebook](mandelbulb_kaleidescope.ipynb).
+The next rows show images generated using the stabilityai/sdxl-turbo image2image model. I created a dataset of Julia Set kaleidescope images using this [P5.js sketch](https://editor.p5js.org/kfahn/sketches/vugGJY9Gm) and pushed them to the [Hugging Face hub](https://huggingface.co/datasets/kfahn/kaleidescope) using this [notebook](push_kaleidescope_data_to_HF_hub.ipynb). You can try out the code with this [notebook](mandelbulb_kaleidescope.ipynb).
 
 <!-- IMAGE-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
