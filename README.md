@@ -37,7 +37,7 @@ For the third set of images, I used [fastGAN](https://github.com/odegeasslbc/Fas
     </tr>
      </tbody>
 </table>
-<p>Here are the Images created with JuliaGAN.</P>
+<p>Here are the images created with using conditioning images generated with JuliaGAN.</P>
 <table>
   <tbody>
     <tr>
